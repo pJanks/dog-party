@@ -4,7 +4,7 @@
 }
 body {
   border: 3px solid black;
-  width: 1437px;
+  width: 1443px;
   margin: 0 auto;
   color: #000000;
 }
@@ -87,7 +87,6 @@ span {
   font-size: 30px;
   font-weight: 900;
 }
-
 .how-what-facts {
   width: 400px;
   height: 700px;
@@ -107,6 +106,7 @@ margin-bottom: 36px;
 color: #ffffff;
 font-size: 22px;
 background-color: #048eaa;
+cursor: pointer;
 }
 footer {
   background-color: #048eaa;
