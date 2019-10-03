@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  font-family: "Open Sans", sans-serif;;
+  font-family: "Open Sans", sans-serif;
 }
 body {
   border: 3px solid black;
@@ -31,6 +31,7 @@ nav {
   text-decoration: none;
   font-size: 23px;
   color: black;
+  cursor: pointer;
 }
 .main {
     background-image: url(images/park.jpg);
