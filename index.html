@@ -2,7 +2,8 @@
 <html>
   <head>
     <title>Dog-Party 2.0</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./style.css" />
   </head>
   <body>
     <header>
@@ -14,12 +15,12 @@
       </nav>
     </header>
     <section class="main">
-      <p class="main-header">A Site About <strong>Some Dogs</strong></p>
+      <p class="main-header">A Site About <span class="some-dogs">Some Dogs<span></p>
       <img src="images/dog1-sq.jpg" alt="A dog in a blue scarf tilts his head" class="dog" />
       <form class="change-name" action="index.html" method="post">
         <p class="new-name"><span class="name">Name:</span>
           <input class="text" type="text" name="dog-name" />
-          <input class="submit" type="submit" value="Name This Dog" name="name-this-dog" />
+          <input class="submit" type="button" value="Name This Dog" name="name-this-dog" />
         </p>
       </form>
     </section>
@@ -54,5 +55,6 @@
           <img src="images/linkedin.svg" alt="Link to LinkedIn" class="ext-link" /></a>
       </div>
     </footer>
+    <script src="./main.js"></script>
   </body>
 </html>
