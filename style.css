@@ -78,6 +78,7 @@ nav {
   font-size: 22px;
   font-weight: 500;
   background-color: #75e2e6;
+  cursor: pointer;
 }
 .article-header {
   text-align: center;
