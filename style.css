@@ -77,7 +77,8 @@ nav {
   height: 55px;
   display: block;
   margin: auto;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  margin-top: 75px;
   font-size: 24px;
   text-align: center;
 }
@@ -86,7 +87,7 @@ nav {
   width: 33.4%;
   display: block;
   margin: auto;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   padding: 13px;
   border: 0px solid red;
   font-size: 22px;
@@ -153,5 +154,24 @@ footer {
 }
 
 @media screen and (max-width: 900px) {
-  
+  .link {
+    padding-right: 16px;
+    font-size: 18px
+  }
+
+  .how,
+  .what {
+    margin: auto;
+    width: 50%;
+  }
+
+  .facts {
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+
 }
