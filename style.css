@@ -89,7 +89,6 @@ nav {
   margin: auto;
   margin-bottom: 30px;
   padding: 13px;
-  border: 0px solid red;
   font-size: 22px;
   background-color: #75e2e6;
   cursor: pointer;
@@ -109,7 +108,7 @@ nav {
 .how-what-facts {
   width: 33%;
   position: relative;
-  height: 880px;
+  height: 900px;
   float: left;
   font-size: 22px;
   display: inline-block;
@@ -188,5 +187,47 @@ footer {
 
   .font-change {
     padding-top: 20px;
+  }
+
+  .main-header {
+    font-size: 38px;
+  }
+}
+
+@media screen and (max-width: 535px) {
+  .link {
+    padding-right: 2px;
+    font-size: 10px;
+  }
+.new-name {
+  font-size: 6px;
+}
+
+  .submit {
+    font-size: 13px;
+    padding: 3px 3px;
+  }
+
+  .how-what-facts {
+    font-size: 18px;
+    height: 775px;
+    width: 100%;
+    margin: auto;
+  }
+
+  footer {
+    height: 130px;
+  }
+
+  .font-change {
+    padding-top: 20px;
+  }
+
+  .main-header {
+    font-size: 38px;
+  }
+  .ext-link {
+    margin-left: 10px;
+    margin-right: 10px;
   }
 }

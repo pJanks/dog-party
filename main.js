@@ -6,7 +6,5 @@ var dogName = document.querySelector(".text");
 var someDogs = document.querySelector(".some-dogs");
 submit.addEventListener("click", function () {
   someDogs.innerText = dogName.value;
-});
-submit.addEventListener("click", function () {
-    dogName.value = "";
+  dogName.value = "";
 });
