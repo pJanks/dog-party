@@ -52,6 +52,9 @@ nav {
   display: block;
   font-size: 44px;
 }
+.some-dogs {
+  font-weight: 700;
+}
 
 .dog {
   display: block;
@@ -60,16 +63,6 @@ nav {
   border: 4px solid #048eaa;
   width: 230px;
   height: 230px;
-}
-
-.new-name {
-  color: #ffffff;
-  width: 33.4%;
-  margin: auto;
-  display: block;
-  font-size: 16px;
-  margin-bottom: 10px;
-
 }
 
 .text {
@@ -97,6 +90,7 @@ nav {
 .article-header {
   text-align: center;
   font-size: 30px;
+  font-weight: 700;
 }
 
 .articles::after {
@@ -199,9 +193,11 @@ footer {
     padding-right: 2px;
     font-size: 10px;
   }
-.new-name {
-  font-size: 6px;
-}
+
+  .text {
+    height: 25px;
+    font-size: 12px;
+  }
 
   .submit {
     font-size: 13px;
@@ -226,6 +222,7 @@ footer {
   .main-header {
     font-size: 38px;
   }
+
   .ext-link {
     margin-left: 10px;
     margin-right: 10px;
