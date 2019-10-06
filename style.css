@@ -2,11 +2,14 @@
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
 }
+
 body {
   border: 3px solid black;
   width: 100%;
   color: #000000;
+  margin: 0px;
 }
+
 header {
   top: 0;
   width: 100%;
@@ -14,6 +17,7 @@ header {
   height: 85px;
   border-bottom: 3px solid #048eaa;
 }
+
 .logo {
   float: left;
   width: 61px;
@@ -21,10 +25,12 @@ header {
   margin: 13px 24px;
   display: inline-block;
 }
+
 nav {
   float: right;
   padding-top: 20px;
 }
+
 .link {
   padding-right: 24px;
   text-decoration: none;
@@ -32,18 +38,21 @@ nav {
   color: black;
   cursor: pointer;
 }
+
 .main {
   background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/park.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   border: 1px solid #048eaa;
 }
+
 .main-header {
   color: #ffffff;
   text-align: center;
   display: block;
   font-size: 44px;
 }
+
 .dog {
   display: block;
   margin: 0px auto;
@@ -52,72 +61,132 @@ nav {
   width: 230px;
   height: 230px;
 }
+
 .new-name {
   color: #ffffff;
-  text-align: center;
+  width: 33.4%;
+  margin: auto;
+  display: block;
+  font-size: 16px;
+  margin-bottom: 10px;
+
 }
-.name {
-  position: relative;
-  right: 210px;
-  font-size: 22px;
-}
+
 .text {
   width: 33.4%;
   height: 55px;
   display: block;
-  margin: 10px 32.7% 25px 32.7%;
+  margin: auto;
+  margin-bottom: 30px;
+  margin-top: 75px;
   font-size: 24px;
   text-align: center;
 }
+
 .submit {
   width: 33.4%;
   display: block;
-  margin: 0px 32.7% 45px 32.7%;
+  margin: auto;
+  margin-bottom: 30px;
   padding: 13px;
   border: 0px solid red;
   font-size: 22px;
-  font-weight: 500;
   background-color: #75e2e6;
   cursor: pointer;
 }
+
 .article-header {
   text-align: center;
   font-size: 30px;
-  font-weight: 600;
 }
+
+.articles::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 .how-what-facts {
-  width: 400px;
-  height: 700px;
+  width: 33%;
+  position: relative;
+  height: 880px;
   float: left;
-  margin-left: 35px;
-  margin-right: 35px;
-  padding: 18px;
   font-size: 22px;
-  font-weight: 200px;
+  display: inline-block;
+  padding-left: 2%;
+  padding-right: 2%;
 }
+
 button {
-width: 390px;
-height: 65px;
-margin: 0px 40px 40px 36px;
-color: #ffffff;
-font-size: 22px;
-background-color: #048eaa;
-cursor: pointer;
+  position: absolute;
+  bottom: 25px;
+  width: 88%;
+  height: 65px;
+  color: #ffffff;
+  font-size: 22px;
+  background-color: #048eaa;
+  cursor: pointer;
 }
+
 footer {
   background-color: #048eaa;
   height: 246px;
 }
+
 .font-change {
   text-align: center;
   font-size: 22px;
   color: #ffffff;
   padding-top: 55px;
 }
+
 .ext-link {
-  margin-left: 30px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
+
 .social {
   padding-top: 5px;
-  margin-left: 543px;
+  text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+  .link {
+    padding-right: 16px;
+    font-size: 18px
+  }
+
+  .how,
+  .what {
+    margin: auto;
+    width: 50%;
+  }
+
+  .facts {
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .link {
+    padding-right: 13px;
+    font-size: 14px
+  }
+  .submit {
+    font-size: 18px;
+  }
+  .how-what-facts {
+    font-size: 18px;
+    height: 785px;
+  }
+
+  footer {
+    height: 150px;
+  }
+
+  .font-change {
+    padding-top: 20px;
+  }
 }

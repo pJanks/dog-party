@@ -1,1 +1,1 @@
-This is a static website built from scratch to match a template provided.
+This is a website built from scratch to match provided comps. 
