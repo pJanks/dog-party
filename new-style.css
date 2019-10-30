@@ -1,0 +1,166 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto Slab', serif;
+}
+
+body {
+  background-color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+
+}
+
+header {
+  align-items: center;
+  background-color: #9A969C;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  position: fixed;
+  /* height: auto; */
+  width: 15%;
+
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 15px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.link {
+  color: black;
+  display: block;
+  font-size: 150%;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.main {
+  background-color: #3E3544;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  height: auto;
+  justify-content: center;
+  margin-left: 15%;
+  width: 85%;
+}
+
+.main-header {
+  color: #FFFFFF;
+  font-size: 250%;
+  margin-top: 200px;
+  text-align: center;
+  width: 50%
+}
+
+.change-name {
+  display: flex;
+  flex-direction: column;
+  margin-left: 52%;
+  margin-top: -130px;
+  width: 50%;
+}
+
+.dog {
+  border-radius: 100%;
+  border: 6px solid #9A969C;
+  margin-top: 80px;
+  height: 400px;
+  width: 35%;
+}
+
+
+
+.submit,
+.text {
+  height: 70px;
+  margin-bottom: 40px;
+  width: 420px;
+}
+
+.submit {
+  background-color: #9A969C;
+  font-size: 145%;
+  /* margin-bottom: 80px; */
+}
+
+.articles {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+}
+
+.how-what-facts {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 400px;
+  margin: auto;
+  padding: 0px 30px 0px 30px;
+  text-align: center;
+  width: 90%;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+
+.article-header {
+  font-size: 170%;
+  width: 25%;
+}
+
+.dogArticle {
+  border: 3px solid #9A969C;
+  border-radius: 100%;
+  width: 25%;
+}
+
+.article-text {
+
+  font-size: 130%;
+  padding: 120px 60px 10px 60px;
+  width: 75%;
+}
+
+button {
+  background-color: #3E3544;
+  color: #FFFFFF;
+  font-size: 130%;
+  height: 60px;
+  margin-left: 48%;
+  margin-top: 20px;
+  width: 20%;
+}
+
+footer {
+  background-color: #3E3544;
+  display: flex;
+  height: 220px;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.font-change {
+  color: #FFFFFF;
+  font-size: 180%;
+  margin-top: 90px;
+  margin-right: 35px;
+}
+
+
+
+.ext-link {
+  width: 28%;
+  margin: 10px;
+}
